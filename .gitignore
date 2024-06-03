@@ -1,7 +1,5 @@
 .env
-node modules
 public
-src
 models
 dist
 report
@@ -14,3 +12,9 @@ index.html
 config-overrides.js
 favicon_io.zip
 postcss.config.js
+# Ignore node_modules directories
+node_modules/
+components
+logo
+screens
+

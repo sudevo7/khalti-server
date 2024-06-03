@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+@media (max-width: 768px){
+  .navbar{
+    display: none !important;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+
+.nav-link{
+  color: white !important;
+}
+
+.navbar-brand{
+  color: white !important;
+}
+
+.smalling {
+  height: 200px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+h1{
+  font-size: 20px !important;
+}
+ 
+.btn {
+  background-color: black !important;
+  color: white !important;
+  box-shadow: none !important;
+  border: none;
+}
+.btnKhalti{
+  background-color: rgb(35, 35, 35) !important;
+  color: white !important;
+  box-shadow: none !important;
+  border: none;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.bs{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px !important;
+  border-radius: 10px !important;
+  padding: 30px !important;
+  width: 105%;
+}
+.bigimg{
+  height: 400px !important;
+  border-radius: 5px !important;
+  
+}
+
+.bigimgH{
+  height: 600px !important;
+  border-radius: 5px !important;
+}
+
+.nav-item{
+  height: fit-content;
+  
+}
+
+.nav-item:hover{
+  background-color:white !important;
+  border-radius: 5px;
+  box-shadow: rgba(153, 149, 149, 0.727) 0px 5px 15px;
+  height: 45px;
+}
+
+.nav-item:hover .nav-link{
+  color: black !important;
+ 
+}
+
+.navbar {
+  height: 100%; /* Set your desired height */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand img {
+  max-height: 100%; /* Make sure the logo doesn't exceed the navbar height */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+input{
+  box-shadow: none;
+  margin-top: 10px;
+  border: 1px solid black !important;
+}
+
+.home-screen {
+  position: relative;
+}
+
+.acc-screen {
+  position: relative;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.background-image__img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.background-image__content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 150%;
+}
+
+.w1 {
+  font-family: "Ubuntu Sans", sans-serif !important;
+  font-size: 80px !important;
+  font-variation-settings:
+    "wdth" 100;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.835);;
+}
+
+.w2 {
+  font-family: "Freeman", sans-serif !important;
+  font-size: 25px !important;
+  text-shadow: 0 0 10px rgb(0, 0, 0);;
+}
+
+.calendar-front {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.container-front {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px !important;
+  width: 28%;
+  height: 60%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px !important;
+}
+
+
+.roomMsg {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.roomMsgSub {
+  font-family: "Playfair Display", serif;
+  font-size: 18px !important;
+  font-style: italic;
+  text-align: center;
+}
+
+
+
+.container-acc {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px !important;
+  width: 25%;
+  height: 60%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px !important;
+}
+
+.guest-acc{
+  position: absolute;
+  transform: translate(-90%, 5%);
+}
+
+.guest-input-acc{
+  position: absolute;
+  transform: translate(-90%, -4%);
+  width: 35%;
+}
+
+.guest-home{
+  position: absolute;
+  transform: translate(-90%, 5%);
+}
+
+.guest-input-home{
+  position: absolute;
+  transform: translate(-90%, -4%);
+  width: 35%;
+}
+
+.front-search{
+  color: white !important;
+  background-color: black !important;
+  width: 80%;
+  height: 200%;
+  position: absolute;
+  transform: translate(-70%, -40%);
+  border-radius: 10px;
+  border: none;
+  
+}
+
+.container-rooms{
+  width: 1000% !important;
+}
+
+.ant-picker:hover {
+  border-color: black !important; /* Ensures the border is black */
+  border-width: 2px !important; /* Makes the border thicker */
+}
+
+
+.ant-picker-focused, .ant-picker-focused:hover {
+  border-color: green !important; /* Change to green when focused */
+}
+
+.ant-picker {
+  border: 1px solid black !important;
+  width: 100%;
+}
+
+.ant-picker-input > input {
+  border: none !important; /* Removes border */
+  outline: none !important; /* Removes focus outline */
+}
+
+.divider {
+  width: 100%; /* Adjust width as needed */
+  height: 2px; /* Adjust height as needed */
+  background: linear-gradient(to right, transparent, #cac5c5, transparent); /* Adjust colors as needed */
+  margin: 60px 0; /* Adjust margin top and bottom */
+}
+
+.amenities-section {
+  padding: 50px 0;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.amenities-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amenities-image {
+  flex: 1;
+}
+
+.amenities-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.amenities-list {
+  flex: 1;
+}
+
+.amenities-list h2 {
+  text-align: center;
+}
+
+.amenities-list ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.amenities-list li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.amenities-list li img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.amenities-list li i {
+  margin-right: 10px; /* Adjust the margin to increase the gap */
+}
+
+.vertical-divider {
+  border-left: 1px solid #b9b9b9d4; /* Adjust color and thickness as needed */
+  height: 250px; /* Adjust height as needed */
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.highlight {
+  color: rgba(1, 62, 168, 0.906); /* Adjust the color as needed */
+  font-weight: bold; /* Optional: make the text bold */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+/* Add this to your CSS file */
+.admin-dashboard {
+  display: flex;
+}
+
+.vertical-nav {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #dee2e6;
+}
+
+.vertical-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vertical-nav ul li {
+  margin-bottom: 10px;
+}
+
+.vertical-nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.vertical-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.custom-modal .modal-dialog {
+  max-width: 80%; /* Adjust width as needed */
+}
+
+.custom-modal .modal-body {
+  max-height: 70vh; /* Adjust height as needed */
+  overflow-y: auto;
+}
+
+.new-booking {
+  background-color: #dff0d8;
+}
+
+
